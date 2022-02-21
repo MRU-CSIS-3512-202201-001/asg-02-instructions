@@ -6,11 +6,13 @@ Assignment 2 takes assignment 1 and runs with it a bit. Instead of being an SPA 
 
 What's not to like?
 
-Read [the assignment pdf](comp-3512-asg-2-fall-2021-version-4.pdf) to get a feel for what's ahead. I think I've learned my lesson from assignment 1 and have taken the time to make the pdf a tad more useful out of the gate. 
+Read [the assignment pdf](comp-3512-a2-v1.pdf) to get a feel for what's ahead. I think I've learned my lesson from assignment 1 and have taken the time to make the pdf a tad more useful out of the gate. 
 
 ## Extensions
 
-We're back to the extension policy in the course outline again. If you alter the main branch on GitHub after the 
+We're back to the extension policy in the course outline again. If you alter the main branch on GitHub after the submission deadline, I'll assume you want an extension and ping karma accordingly.
+
+If you want to avoid me assuming you're asking for an extension when you're really not, I recommend working on a branch other than main until you receive your feedback from me. You can then merge that work back onto main and carry on with your life. Get in touch with me if you can't figure out how to do this.
 
 
 ## Milestones
@@ -19,11 +21,11 @@ _All milestones are due at 9:00 PM._
 
 |           milestone            |  due   | weight (%) |
 | :----------------------------: | :----: | :--------: |
-| [milestone 1](milestone-01.md) | Jan 19 |     3      |
-| [milestone 2](milestone-02.md) | Jan 26 |     3      |
-| [milestone 3](milestone-03.md) | Feb 02 |     3      |
-| [milestone 4](milestone-04.md) | Feb 09 |     3      |
-| [milestone 5](milestone-05.md) | Feb 16 |     7      |
+| [milestone 1](milestone-01.md) | Mar 09 |     3      |
+| [milestone 2](milestone-02.md) | Mar 16 |     3      |
+| [milestone 3](milestone-03.md) | Mar 23 |     3      |
+| [milestone 4](milestone-04.md) | Mar 30 |     3      |
+| [milestone 5](milestone-05.md) | Apr 06 |     7      |
 
 
 ## Staying In The Loop
