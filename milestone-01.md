@@ -26,7 +26,11 @@ Accept the starting repo here: https://classroom.github.com/a/1U1hgs5Y
 
 ## Your Mark
 
-I've modified marking to make it less punishing. 
+I've modified marking to make it less punishing.  
+
+### Oops Policy
+
+If you make a simple mistake at Level 1 or 2, the standard Oops Policy is in effect: you'll get an opportunity to fix ONE oops.
 
 ### The Ladder
 
@@ -47,9 +51,9 @@ I've modified marking to make it less punishing.
 
 All of the following need to be complete for you to reach Level 1:
 
-- [ ] [LEVEL1.1] You've accepted the starting repo from GitHub Classroom.
+- [ ] [L1.1] You've accepted the starting repo from GitHub Classroom.
 
-- [ ] [LEVEL1.2] You have sent me an email that clearly states who you want to work with (if possible) as well as who you **don't** want to work with. If you don't care one way or the other, let me know that. These restrictions are in effect:
+- [ ] [L1.2] You have sent me an email that clearly states who you want to work with (if possible) as well as who you **don't** want to work with. If you don't care one way or the other, let me know that. These restrictions are in effect:
   - You **cannot** work with someone you worked with on assignment 1.
   - Teams will have 3 or 4 members.
 
@@ -69,17 +73,17 @@ All of the following need to be complete for you to reach Level 1:
 
 To reach Level 2, you must have completed all the Level 1 requirements and have also completed all of these, too:
 
-- [ ] [LEVEL2.1] Your repo has a `composer.json` file with the contents shown in the "configuring your projects" screencast.
+- [ ] [L2.1] Your repo has a `composer.json` file with the contents shown in the "configuring your projects" screencast.
 
-- [ ] [LEVEL2.2] Your repo has a `Procfile` with the contents shown in the "configuring your projects" screencast.
+- [ ] [L2.2] Your repo has a `Procfile` with the contents shown in the "configuring your projects" screencast.
 
-- [ ] [LEVEL2.3] Your repo has a `public` directory, with a single file in it: `index.php`.
+- [ ] [L2.3] Your repo has a `public` directory, with a single file in it: `index.php`.
 
-- [ ] [LEVEL2.4] There is a working URL in the starting repo's `README.md` to the `index.php` file on Heroku.
+- [ ] [L2.4] There is a working URL in the starting repo's `README.md` to the `index.php` file on Heroku.
 
-- [ ] [LEVEL2.5] When you click on the link in the README, you arrive on a page that displays the message "It's alive!". This message must be in an `<h1>` tag generated using PHP. 
+- [ ] [L2.5] When you click on the link in the README, you arrive on a page that displays the message "It's alive!". This message must be in an `<h1>` tag generated using PHP. 
 
-- [ ] [LEVEL2.6]  When the URL given in the README is validated by the [W3C Markup Validation Service](https://validator.w3.org/), no errors are present.
+- [ ] [L2.6]  When the URL given in the README is validated by the [W3C Markup Validation Service](https://validator.w3.org/), no errors are present.
 
 ---
 
@@ -101,13 +105,13 @@ To reach Level 2, you must have completed all the Level 1 requirements and have 
 
 To reach Level 3, you must have completed all the Level 2 requirements and have also completed all of these, too:
 
-- [ ] [LEVEL3.1] You have a reasonably-named screenshot in your repo that shows that your mySQL instance has been created. This screenshot must be taken from the Activity area of your project and must show the details of the most recent `Create instance` entry. Here is an example screencast for my instance:
+- [ ] [L3.1] You have a reasonably-named screenshot in your repo that shows that your mySQL instance has been created. This screenshot must be taken from the Activity area of your project and must show the details of the most recent `Create instance` entry. Here is an example screencast for my instance:
 
   ![instance proof 1](images/gcp-instance-creation-proof.png)
 
   _I went to the Activity panel and toggled open the most recent `Create instance` entry. Notice how it clearly shows my email, the name of my project (`comp-3512-jpratt-a2`), and the name of my mySQL instance (`comp-3512-a2`)._
 
-- [ ] [LEVEL3.2] You have a reasonably-named screenshot in your repo that shows the Overview page for your mySQL instance. This screenshot must show a matching instance name (`comp-3512-a2` in this case), along with the public IP address of your instance:
+- [ ] [L3.2] You have a reasonably-named screenshot in your repo that shows the Overview page for your mySQL instance. This screenshot must show a matching instance name (`comp-3512-a2` in this case), along with the public IP address of your instance:
 
   ![instance proof 1](images/gcp-instance-creation-proof-2.png)
 
@@ -126,7 +130,7 @@ To reach Level 3, you must have completed all the Level 2 requirements and have 
 
 To reach Level 4, you must have completed all the Level 3 requirements and have also completed the following one, too:
  
- - [ ] [LEVEL4.1] You have a reasonably-named screenshot in your repo that shows you have successfully connected to your GCP mySQL server and have shown the databases already present.
+ - [ ] [L4.1] You have a reasonably-named screenshot in your repo that shows you have successfully connected to your GCP mySQL server and have shown the databases already present.
 
     ![connection success](images/successful-connection.png)
 
