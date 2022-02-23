@@ -35,7 +35,7 @@ If you make a simple mistake at Level 1 or 2, the standard Oops Policy is in eff
 ### The Ladder
 
 | Completed Req's Sections | Corresponding % |
-| :----------------------: | :-------------: |
+|:------------------------:|:---------------:|
 |           None           |       0%        |
 |         Level 1          |       25%       |
 |         Level 2          |       65%       |
@@ -65,7 +65,7 @@ All of the following need to be complete for you to reach Level 1:
 
 #### Prerequisites
 
-- You have set up XAMPP on your own device and/or are using a computer in B103, B107, B162, or E203.
+- You have set up XAMPP on your own device and/or are using a computer in B103, B107, B162, or E203. See the [setup doc available in the Quick Links](https://github.com/MRU-CSIS-3512-202201-001/xampp-setup).
 - You know how to set up a Heroku server and push code from GitHub to it, or have watched the [getting yer stuffs on Heroku](https://youtu.be/r_Ft9TnUTkQ) [29:36] screencast.
 - You know how to use a Procfile to keep some things hidden on Heroku, or have watched the first 4 minutes of the [configuring your projects for use on XAMPP and Heroku](https://youtu.be/YNljMRhRkAA) screencast.
 
