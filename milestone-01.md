@@ -67,7 +67,7 @@ All of the following need to be complete for you to reach Level 1:
 
 - You have set up XAMPP on your own device and/or are using a computer in B103, B107, B162, or E203. See the [setup doc available in the Quick Links](https://github.com/MRU-CSIS-3512-202201-001/xampp-setup).
 - You know how to set up a Heroku server and push code from GitHub to it, or have watched the [getting yer stuffs on Heroku](https://youtu.be/r_Ft9TnUTkQ) [29:36] screencast.
-  - UPDATED [2022-03-04] Things are easier now: [watch the new walkthrough](https://watch.screencastify.com/v/mosGzDZfUroihFovmSZI) [3:21]
+  - UPDATED [2022-03-04] Things are easier now: [watch the new walkthrough](https://watch.screencastify.com/v/mosGzDZfUroihFovmSZI) [3:21] AND [this additional screencast, too](https://watch.screencastify.com/v/gF7fH7nHKfgDg8cImQ04) [2:10].
 - You know how to use a Procfile to keep some things hidden on Heroku, or have watched the first 4 minutes of the [configuring your projects for use on XAMPP and Heroku](https://youtu.be/YNljMRhRkAA) screencast.
 
 #### Requirements
