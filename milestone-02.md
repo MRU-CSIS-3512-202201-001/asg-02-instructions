@@ -1,4 +1,4 @@
-# Assignment 02 - Milestone 02 (WIP)
+# Assignment 02 - Milestone 02
 
 **Due March 16 (W) @ 9 PM**
 
