@@ -52,13 +52,19 @@ If you make a simple mistake at Level 0 through 3, a modified Oops Policy is in 
 
 #### Level 0
 
-If the following aren't met, I won't mark your submission.
+If the following aren't met, I won't mark your submission. Most of these have been done previously, so as long as you haven't busted anything, there is no real work to do here!
+
+The one exception is L0.4 - keep that HTML validating! (This is not just some busywork requirement - it truly does help you avoid a lot of wonky issues with your visual design.)
 
 - [ ] [L0.1] The Feedback pull request in the repo has not been closed or merged.
 
 - [ ] [L0.2] The name of your Heroku application is `comp-3512-w22-team-xx`, where `xx` is the 2 digits of your team.
 
 - [ ] [L0.3] There is a working link in the team repo's `README.md` that takes you to the Heroku URL for your application; this should cause your `index.php` to be displayed.
+
+- [ ] [L0.4]  When the Home, Login, and About pages are validated by the [W3C Markup Validation Service](https://validator.w3.org/), no errors are present.
+
+    _Warnings are OK, though I do reserve the right to roll me eyes and sigh melodramatically._
 
 ---
 
