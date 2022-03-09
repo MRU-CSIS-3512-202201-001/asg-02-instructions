@@ -156,7 +156,7 @@ To reach Level 5, you must have completed all the prior Level requirements and a
 
 - [ ] [HEADER.3] The navigation menu is a "standard" menu at Laptop L size.
 
-- [ ] [HEADER.4] The navigation menu is a "hamburger" menu at mobile L size (see notes about this on page 2 of the [pdf](comp-3512-a2-v1.pdf)).
+- [ ] [HEADER.4] The navigation menu is a "hamburger" menu at Mobile L size (see notes about this on page 2 of the [pdf](comp-3512-a2-v1.pdf)).
 
 - [ ] [HEADER.5] The navigation menu contains working links to the Home, Login, and About pages.
 
