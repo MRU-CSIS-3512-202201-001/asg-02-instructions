@@ -187,7 +187,9 @@ When a user goes to `single-movie.php?id=x`, they should see a page that is _alm
 
 #### Level 1
 
-- [ ] 
+- [ ] A reasonable attempt was made to reach Level 2,3, or 4, but things have broken and the page is not displaying properly.
+
+    _I get to decide what "reasonable attempt" means._
 
 #### Level 2
 
