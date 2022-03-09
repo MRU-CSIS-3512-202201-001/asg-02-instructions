@@ -144,7 +144,7 @@ To reach Level 5, you must have completed all the prior Level requirements and a
 
 - [ ] [ABOUT.3] This page displays how many days, hours, and minutes are left until milestone 5 is due (April 6 @ 9:00 PM). PHP must be used to accomplish this.
 
-    _This is not a countdown timer - just how much time is remaining from the time this page was responded to by the server._
+    _This is not a countdown timer - just how much time is remaining from the time this page was served up by the server._
 
 ---
 
