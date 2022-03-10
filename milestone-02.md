@@ -66,6 +66,8 @@ The one exception is L0.4 - keep that HTML validating! (This is not just some bu
 
     _Warnings are OK, though I do reserve the right to roll me eyes and sigh melodramatically._
 
+- [ ] [L0.5] The "plumbing" that was used in milestone 1 is present here: a valid Procfile, composer.json, and public folder containing your site's viewable files are present.
+
 ---
 
 #### Level 1 (25%)
