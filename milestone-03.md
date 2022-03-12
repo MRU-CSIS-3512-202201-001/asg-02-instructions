@@ -4,7 +4,7 @@
 
 **Worth 3% of your final grade**
 
-**Content in this milestone document takes precedence over anything you read in the [assignment pdf](comp-3512-asg-1-winter-2020-current.pdf).**
+**Content in this milestone document takes precedence over anything you read in the [assignment pdf](comp-3512-a2-v1.pdf).**
 
 ## Overview
 
@@ -14,13 +14,13 @@ This third milestone will have you focusing on 3 main tasks:
 2. Query string sanitization of URLs used for the Movie Details page, and
 3. Presenting the Movie Details page for a given movie.
 
-In addition, you will want to put effort into the visual design of your site.
+In addition, you will want to put effort into the visual design of your site, so I guess that's 4 main tasks.
 
 ## Database Population
 
 If you look through the requirements for the various categories, you will see that in order to get a higher mark in some of them, you're going to need to query a movie database...which means that you're going to have to create and populate that database!
 
-Fortunately, there's a script that will do that for you. It's in this repo: `data\movie-data.sql`. You will need to run this script from your local SQL command line prompt using the technique shown in this screencast.
+Fortunately, there's a script that will do that for you. It's in this instruction repo here: `data\populate-movies.sql`. You will need to use this script from your local SQL command line prompt using the technique shown in [this screencast [10:42]](https://watch.screencastify.com/v/QD1VqRvv3ha0IhDBKbvr).
 
 
 ## A Suggestion
@@ -38,7 +38,7 @@ As you might suspect, the 4 categories for this milestone correspond to the 3 ma
 ### Category Weightings
 
 | Category                                     | Weight |
-|----------------------------------------------|:------:|
+| -------------------------------------------- | :----: |
 | Client-Side Registration Form Validation     |  30%   |
 | Movie Details Page Query String Sanitization |  20%   |
 | Movie Details Page Presentation              |  35%   |
@@ -49,7 +49,7 @@ As you might suspect, the 4 categories for this milestone correspond to the 3 ma
 Each of the categories will use the same Ladder.
 
 | Completed Req's Sections | Corresponding % |
-|:------------------------:|:---------------:|
+| :----------------------: | :-------------: |
 |         Level 0          |       0%        |
 |         Level 1          |       52%       |
 |         Level 2          |       65%       |
@@ -77,11 +77,14 @@ If the following aren't met, I won't mark your submission. Most of these have be
 
     _I'm going to assume you haven't busted the pages you previously validated, which is _adorably_ Pollyannaish of me, but I gotta be me._
 
+- [ ] [MH.5] The "plumbing" that was used in milestone 1 is present here: a valid Procfile, composer.json, and public folder containing your site's viewable files are present.
 ---
 
 ### Client-Side Registration Form Validation
 
-Form validation is fundamental for any site that includes them. Validation typically happens on two fronts: the front-end, where JavaSscript is used to provided feedback to the user as the form is being filled out and again on the back-end, in case JavaScript is turned off.
+Form validation is fundamental for any site that uses forms - and ours does. 
+
+Validation typically happens on two fronts: the front-end, where JavaScript is used to provide feedback to the user as the form is being filled out, and again on the back-end, in case JavaScript is turned off.
 
 For this milestone, you're going to get front-end validation working. This means that these requirements will all be done using JS code. No PHP.
 
@@ -109,21 +112,22 @@ You do NOT have to see whether a provided email exists in the database, since yo
 
     _We'll call this "after submit validation", as described in [this article](https://cxl.com/blog/form-validation/)._
 
-- [ ] If the form is determined to be valid, a message is logged to the console indicating this. (This is just a temporary thing - you shouldn't be doing by milestone 5!)
+- [ ] If the form is determined to be valid, a message is logged to the console indicating this. (This is just a temporary thing - you shouldn't be doing this by milestone 5!)
 
 
 #### Level 4
 
 - [ ] All validations described in the bullet list in the Registration Page section of the pdf (page 9) are working.
-- [ ] Feedback is provided as the user entering data in the form.
+  
+- [ ] Feedback is provided as the user enters data in the form.
 
     _We'll call this "inline validation", as described in the article referred to in Level 2._
 
-- [ ] If the form is determined to be valid, a message is logged to the console indicating this. (This is just a temporary thing - you shouldn't be doing by milestone 5!)
+- [ ] If the form is determined to be valid, a message is logged to the console indicating this. (This is just a temporary thing - you shouldn't be doing this by milestone 5!)
 
 #### Level 5
 
-- [ ] Validation behaves as described in Level 4, but presentation of feedback shows a great deal of thought and care have been invested.
+- [ ] Validation behaves as described in Level 4, but the presentation of feedback shows a great deal of thought and care have been invested.
 
     _For ideas, check out both the previously-mentioned article and [this one](https://medium.com/@andrew.burton/form-validation-best-practices-8e3bec7d0549) as well._
 
@@ -147,13 +151,13 @@ In order to view the details about a movie, you need to visit `single-movie.php?
 
     - [ ] there is no key called `id` (case sensitive!), or
     - [ ] there is more than one key, or
-    - [ ] there is a key called `id` and its value is not an integer, or
-    - [ ] there is a key called `id` and its value is an integer <= 0
+    - [ ] there is a key called `id`, and its value is not an integer, or
+    - [ ] there is a key called `id`, and its value is an integer <= 0
 
 - [ ] If there are no errors in the query string, you have two options:
 
     1. If you've completed the Movie Details Page Presentation requirement to Level 4 or 5, then just display that page!
-    2. Otherwise, display a placeholder page of some sort that is different from the error page. (That way, when I'm marking I can clearly see whether your sanitization is working correctly.)
+    2. Otherwise, display a placeholder page of some sort that is different from the error page. (That way, when I'm marking, I can clearly see whether your sanitization is working correctly.)
 
 #### Level 3
 
@@ -169,7 +173,7 @@ In order to view the details about a movie, you need to visit `single-movie.php?
 
 - [ ] The `single-movie.php` page behaves as with Level 4 and, in addition:
   - [ ] the code used to do this redirect is composed of expressively-named helper functions, and
-  - [ ] the error page is informative, visually-pleasing to look at, thematically appropriate, and of your own design
+  - [ ] the error page is informative, visually pleasing, thematically appropriate, and of your own design
 
 ---
 
@@ -187,7 +191,7 @@ When a user goes to `single-movie.php?id=x`, they should see a page that is _alm
 
 #### Level 1
 
-- [ ] A reasonable attempt was made to reach Level 2,3, or 4, but things have broken and the page is not displaying properly.
+- [ ] A reasonable attempt was made to reach Level 2,3, or 4, but things are broken, and the page is not displaying properly.
 
     _I get to decide what "reasonable attempt" means._
 
@@ -219,7 +223,7 @@ When a user goes to `single-movie.php?id=x`, they should see a page that is _alm
 
 - [ ] You must create a `config.php` and `Connection.php` class, as demonstrated in my [configuring your projects for use on XAMPP and Heroku](https://youtu.be/YNljMRhRkAA?t=480) from the 8:00 mark onward.
 
-    _These screencasts were made last semester, so there will be some changes you'll need to make. One of them for example, is to use the db name `movies`. You should be able to figure out any other changes on your own (this **is** Level 5, after all), but feel free to shoot me questions._
+    _These screencasts were made last semester, so there will be some changes you'll need to make. One of them, for example, is to use the db named `movies`. You should be able to figure out any other changes on your own (this **is** Level 5, after all), but feel free to shoot me questions._
 
 ---
 
@@ -253,4 +257,4 @@ Also, since you've all received a variety of visual design feedback over the cou
 
 #### Level 5
 
-- [ ] This will be difficult to reach, as basically the site looks like it was done by a person who does this kind of thing for a living.
+- [ ] This will be difficult to reach, as basically the site looks like it was designed by a person who does this kind of thing for a living.
