@@ -10,8 +10,8 @@
 
 This third milestone will have you focusing on 3 main tasks:
 
-1. Client-side validation of the registration form (using JS!),
-2. Query string sanitization of URLs used for the Movie Details page, and
+1. Validating the registration form on the client-side using JS,
+2. Sanitiziang the query string of URLs used for the Movie Details page, and
 3. Presenting the Movie Details page for a given movie.
 
 In addition, you will want to put effort into the visual design of your site, so I guess that's 4 main tasks.
@@ -20,18 +20,18 @@ In addition, you will want to put effort into the visual design of your site, so
 
 If you look through the requirements for the various categories, you will see that in order to get a higher mark in some of them, you're going to need to query a movie database...which means that you're going to have to create and populate that database!
 
-Fortunately, there's a script that will do that for you. It's in this instruction repo here: `data\populate-movies.sql`. You will need to use this script from your local SQL command line prompt using the technique shown in [this screencast [10:42]](https://watch.screencastify.com/v/QD1VqRvv3ha0IhDBKbvr).
+Fortunately, there's a script that will do that for you. It's in this instruction repo here: [data\populate-movies.sql](data/populate-movies.sql). You will need to use this script from your local SQL command line prompt using the technique shown in [this screencast [10:42]](https://watch.screencastify.com/v/QD1VqRvv3ha0IhDBKbvr).
 
 
 ## A Suggestion
 
-I won't be making you use the projects feature of GitHub as I did in assignment one...but I hope you realize that it can be a powerful tool for making clear what tasks your team needs to do and by when and by whom. (Or is that who? I always forget.)
+I won't be *forcing* you to use the projects feature of GitHub as I did in assignment one...but I hope you realize that it can be a powerful tool for making clear what tasks your team needs to do and by when and by whom. (Or is that who? I always forget.)
 
 These kind of boards are used in industry, so why not practice using them while you're a student?...
 
 ## Your Mark
 
-Much like with assignment 1's milestone 6, I'll be marking this (and remaining milestones) by using categories, each marked on a Ladder.
+Much like with assignment one's milestone 6, I'll be marking this (and remaining milestones) by using categories, each marked on a Ladder.
 
 As you might suspect, the 4 categories for this milestone correspond to the 3 main tasks mentioned in the Overview, plus visual design.
 
@@ -82,9 +82,9 @@ If the following aren't met, I won't mark your submission. Most of these have be
 
 ### Client-Side Registration Form Validation
 
-Form validation is fundamental for any site that uses forms - and ours does. 
+Form validation is fundamental for any site that uses forms - and your site does. 
 
-Validation typically happens on two fronts: the front-end, where JavaScript is used to provide feedback to the user as the form is being filled out, and again on the back-end, in case JavaScript is turned off.
+Validation typically happens on two fronts: the front-end, where JavaScript is used to provide feedback to the user as the form is being filled out, and again on the back-end, in case JavaScript is turned off and as a preventive measure to make sure no naughty data gets into our databases.
 
 For this milestone, you're going to get front-end validation working. This means that these requirements will all be done using JS code. No PHP.
 
@@ -108,7 +108,7 @@ You do NOT have to see whether a provided email exists in the database, since yo
 
 - [ ] All validations described in the bullet list in the Registration Page section of the pdf (page 9) are working.
 
-- [ ] Feedback on invalid fields is provided after the submit button has been pressed.
+- [ ] Feedback on invalid fields is provided **after the submit button has been pressed**.
 
     _We'll call this "after submit validation", as described in [this article](https://cxl.com/blog/form-validation/)._
 
@@ -119,7 +119,7 @@ You do NOT have to see whether a provided email exists in the database, since yo
 
 - [ ] All validations described in the bullet list in the Registration Page section of the pdf (page 9) are working.
   
-- [ ] Feedback is provided as the user enters data in the form.
+- [ ] Feedback is provided **as the user enters data in the form**.
 
     _We'll call this "inline validation", as described in the article referred to in Level 2._
 
@@ -161,13 +161,13 @@ In order to view the details about a movie, you need to visit `single-movie.php?
 
 #### Level 3
 
-- [ ] The `single-movie.php` page behaves as with Level 2 and, in addition, also redirects if the id provided is not one of the ones found in the `all-movie-ids.txt` file given to you here in the instructions repo. (Check the `data` directory.)
+- [ ] The `single-movie.php` page behaves as with Level 2 and, in addition, also redirects if the id provided is not one of the ones found in the [all-movie-ids.php](data/all-movie-ids.php) file given to you here in the instructions repo.
 
-    _This is basically a bargain-basement way of ensuring that the movie id provided in the query string is a valid one. It's kind of like what we did with the JSON files in assignment 1._
+    _This is basically a bargain-basement way of ensuring that the movie id provided in the query string is a valid one. It's kind of like what we did with the JSON files in assignment one._
 
 #### Level 4
 
-- [ ] The `single-movie.php` page behaves as in Level 2 and, in addition, redirects if the id provided is not a valid one. This determination of validity must be done through querying the movies database you've hosted on GCP.
+- [ ] The `single-movie.php` page behaves as in Level 2 and, in addition, redirects if the id provided is not a valid one. This determination of validity must be done through querying the movies database.
 
 #### Level 5
 
@@ -201,6 +201,8 @@ When a user goes to `single-movie.php?id=x`, they should see a page that is _alm
 
     _So if you're shooting for this level, and you wanted to display the runtime in some markup, you'd need to access it via `$madMax["runtime"]`._
 
+     _At this level, and for this milestone, I don't mind if all your code is just in a block at the start of the `single-movie.php` file._
+
 
 #### Level 3
 
@@ -219,7 +221,7 @@ When a user goes to `single-movie.php?id=x`, they should see a page that is _alm
 
 - [ ] The behaviour at this level is the same as it is in Level 4, and
 
-- [ ] You must have your Heroku application set up to use environment variables, as outlined in my [setting up environment variables on Heroku for GCP](https://youtu.be/Ecw_6Tj-nXg) [7:54] screencast.
+- [ ] You must have your Heroku application set up to use environment variables, as outlined in my [setting up environment variables on Heroku for GCP  [7:54]](https://youtu.be/Ecw_6Tj-nXg) screencast.
 
 - [ ] You must create a `config.php` and `Connection.php` class, as demonstrated in my [configuring your projects for use on XAMPP and Heroku](https://youtu.be/YNljMRhRkAA?t=480) from the 8:00 mark onward.
 
@@ -233,7 +235,7 @@ The visual design of all Views will be evaluated at **both** Mobile L and Laptop
 
 It's important that your site has a unified visual "feel".
 
-Also, since you've all received a variety of visual design feedback over the course of assignment 1, my expectations here will be higher.
+Also, since you've all received a variety of visual design feedback over the course of assignment one, my expectations here will be higher.
 
 #### Level 0
 
@@ -241,7 +243,7 @@ Also, since you've all received a variety of visual design feedback over the cou
 
 #### Level 1
 
-- [ ] The overall impression of the site is "oh dear...". Perhaps the different pages don't share a visual theme at all and are stitched together from disparate assignment 1 designs?  Or perhaps there are just so many issues that I lose count? In any case, you wouldn't want to show this to a potential employer or client.
+- [ ] The overall impression of the site is "oh dear...". Perhaps the different pages don't share a visual theme at all and are stitched together from disparate assignment one designs?  Or perhaps there are just so many issues that I lose count? In any case, you wouldn't want to show this to a potential employer or client.
 
 #### Level 2
 
