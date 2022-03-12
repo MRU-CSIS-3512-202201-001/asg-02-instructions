@@ -11,7 +11,7 @@
 This third milestone will have you focusing on 3 main tasks:
 
 1. Validating the registration form on the client-side using JS,
-2. Sanitiziang the query string of URLs used for the Movie Details page, and
+2. Sanitizing the query string of URLs used for the Movie Details page, and
 3. Presenting the Movie Details page for a given movie.
 
 In addition, you will want to put effort into the visual design of your site, so I guess that's 4 main tasks.
