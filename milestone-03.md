@@ -78,6 +78,7 @@ If the following aren't met, I won't mark your submission. Most of these have be
     _I'm going to assume you haven't busted the pages you previously validated, which is _adorably_ Pollyannaish of me, but I gotta be me._
 
 - [ ] [MH.5] The "plumbing" that was used in milestone 1 is present here: a valid Procfile, composer.json, and public folder containing your site's viewable files are present.
+
 ---
 
 ### Client-Side Registration Form Validation
