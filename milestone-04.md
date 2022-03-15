@@ -6,13 +6,18 @@
 
 **Content in this milestone document takes precedence over anything you read in the [assignment pdf](comp-3512-asg-1-winter-2020-current.pdf).**
 
+## Easing Off A Bit This Week
+
+This milestone is due right after your quizzes. I'd like you to focus on those a bit more than this milestone. Plus, you likely have some things that need doing in other courses.
+
+So this milestone _should_ be fairly easy to complete and get a good mark. There is still a goodly amount of work to come - and only one week to complete it after this milestone - so if you're worried about that, just take a look at milestone 5. 
 
 ## Overview
 
 This fourth milestone will have you focusing on 4 main tasks:
 
-1. Implementing the Title Search (from Home) functionality.
-2. Implementing an API to provide data to the Title Search.
+1. Implementing an API to provide data to the Title Search.
+2. Implementing the Title Search (from Home) functionality.
 3. Implementing the Login functionality.
 4. Continuing work on your visual design.
 
@@ -26,9 +31,9 @@ Since you need to get Login working, you'll need some users to test things out w
 ### Category Weightings
 
 | Category      | Weight |
-| ------------- | :----: |
-| Title Search  |  30%   |
+|---------------|:------:|
 | API Creation  |  20%   |
+| Title Search  |  30%   |
 | Login         |  35%   |
 | Visual Design |  15%   |
 
@@ -37,7 +42,7 @@ Since you need to get Login working, you'll need some users to test things out w
 Each of the categories will use the same Ladder.
 
 | Completed Req's Sections | Corresponding % |
-| :----------------------: | :-------------: |
+|:------------------------:|:---------------:|
 |         Level 0          |       0%        |
 |         Level 1          |       52%       |
 |         Level 2          |       65%       |
@@ -49,7 +54,7 @@ Each of the categories will use the same Ladder.
 
 ### Must-Haves
 
-If the following aren't met, I won't mark your submission. Most of these have been done previously, so as long as you haven't busted anything, there is no real work to do here!
+> If the following aren't met, I won't mark your submission. Most of these have been done previously, so as long as you haven't busted anything, there is no real work to do here!
 
 - [ ] [MH.1] The Feedback pull request in the repo has not been closed or merged.
 
@@ -67,7 +72,72 @@ If the following aren't met, I won't mark your submission. Most of these have be
 
 ---
 
-### Title Search
+
+### API (20%)
+
+> In assignment 1, you were querying a 3rd-party API to do your title searches...but now it's time to [eat your own dog food](https://en.wikipedia.org/wiki/Eating_your_own_dog_food).
+
+> Due to the nature of this task, the marking is going to be kind of a "0/52/98" thing: you either did it right (98), have a few minor errors (52), or have numerous errors/didn't do it (0).
+
+
+#### Level 0
+
+- [ ] The API is not implemented at all, or
+- [ ] Three or more Level 5 requirements are not met.
+
+#### Level 1
+
+- [ ] One or two Level 5 requirements are not met.
+
+#### Level 5
+
+- [ ] [API.1] A user can go to `[your site URL]/api/movies?title=[title search string]` and get back a JSON array of all movies matching `[title search string]`, following all requirements mentioned below.
+
+- [ ] [API.2] The endpoint must be exactly as described. This includes the use of all lowercase letters.
+
+- [ ] [API.3] The search should be case-insensitive. And don't forget folks will potentially be passing in spaces and such. You might want to look into [urlencode](https://www.php.net/manual/en/function.urlencode.php).
+
+- [ ] [API.4] The api folder must be inside your public folder so that it's accessible to users.
+
+- [ ] [API.5] The query string must be valid (i.e. you must perform query string sanitization on the query string). If the query string is invalid, please return an empty array. (This might not be what you do in "real life", but it's good enough for us here!)
+
+---
+
+### Title Search (30%)
+
+> The title search feature is basically the same as it was in assignment one, but now you need to query your _own_ API endpoint to get the matching titles. As such, you'll need to get the API work done first!
+
+> To get full marks, the behaviour we see here should be the same as it was for assignment one. I don't think I need to go over the requirements in agonizing detail, since we've been down that road once before.
+
+> Note: this milestone is **not** asking you to have your Browse page completely functional - that's for milestone 5. You just need to be able to search from the Home page (either version) and see the expected results on the Browse page.
+
+#### Level 0
+
+- [ ] The search is not implemented at all, or
+- [ ] Three or more Level 5 requirements are not met.
+
+#### Level 1
+
+- [ ] One or two Level 5 requirements are not met.
+
+#### Level 5
+
+- [ ] [TS.1]  The title search no longer has an autocomplete.
+
+- [ ] [TS.2] A user shouldn't be able to do a title search if the title search box is empty. You should accomplish this with JavaScript.
+
+- [ ] [TS.3] If a user searches for a title that matches nothing, then they should arrive on `browse-movies.php` and there should be a clear indication that their search resulted in no results.
+
+- [ ] [TS.4] If a user searches for a title that matches (fully or partially, case-insensitive) the title of a movie that is in the database, then they should arrive on `browse-movies.php` with the matching movies visible and in alphabetic title order.
+
+- [ ] [TS.5] Behind the scenes, the same process as required in assignment one should be taking place: the clicking of the search button should initiate a fetch from an API endpoint (your own!) and results should be stored in some form in session storage (i.e. they are now cached so that further API calls aren't necessary unless a new search is initiated).
+
+---
+
+### Login (35%)
+
+> For this milestone, we want an existing user - one who exists in the users table of our database - to be able to log into the site. A logged-in user will have access to pages and features that a not logged-in user won't. These differences are shown in the Level 5 requirements.
+
 
 #### Level 0
 
@@ -82,46 +152,10 @@ If the following aren't met, I won't mark your submission. Most of these have be
 #### Level 5
 
 
----
-
-### API
-
-In assignment 1, you were querying a 3rd-party API...but now it's time to eat your own dog food.
-
-#### Level 0
-
-#### Level 1
-
-- [ ] The API returns something that is not a JSON response.
-
-#### Level 2
-
-#### Level 3
-
-#### Level 4
-
-#### Level 5
-
 
 ---
 
-### Login
-
-#### Level 0
-
-#### Level 1
-
-#### Level 2
-
-#### Level 3
-
-#### Level 4
-
-#### Level 5
-
----
-
-### Visual Design 
+### Visual Design (15%)
 
 The visual design of all Views will be evaluated at **both** Mobile L and Laptop L size in a Chrome browser. 
 
