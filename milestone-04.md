@@ -1,4 +1,4 @@
-# Assignment 02 - Milestone 04 (WIP)
+# Assignment 02 - Milestone 04 
 
 **Due March 30 (W) @ 9 PM**
 
@@ -31,7 +31,7 @@ Since you need to get Login working, you'll need some users to test things out w
 ### Category Weightings
 
 | Category      | Weight |
-|---------------|:------:|
+| ------------- | :----: |
 | API Creation  |  20%   |
 | Title Search  |  30%   |
 | Login         |  35%   |
@@ -42,7 +42,7 @@ Since you need to get Login working, you'll need some users to test things out w
 Each of the categories will use the same Ladder.
 
 | Completed Req's Sections | Corresponding % |
-|:------------------------:|:---------------:|
+| :----------------------: | :-------------: |
 |         Level 0          |       0%        |
 |         Level 1          |       52%       |
 |         Level 2          |       65%       |
@@ -64,9 +64,7 @@ Each of the categories will use the same Ladder.
 
     _I will be marking the site you link to via this README, so make sure it's the one you want assessed!_
 
-- [ ] [MH.4]  When the Default page is validated by the [W3C Markup Validation Service](https://validator.w3.org/), no errors are present. Warnings are ok.
-
-    _As last time, I'm going to assume you haven't busted the pages you previously validated._
+- [ ] [MH.4]  There is no markup validation this time. This will change for the final milestone, so I strongly suggest keeping on top of this - it truly sucks to think you've completed a page...and then find out its markup is a mangled mess!
 
 - [ ] [MH.5] The "plumbing" that was used in milestone 1 is present here: a valid Procfile, composer.json, and public folder containing your site's viewable files are present.
 
@@ -138,20 +136,52 @@ Each of the categories will use the same Ladder.
 
 > For this milestone, we want an existing user - one who exists in the users table of our database - to be able to log into the site. A logged-in user will have access to pages and features that a not logged-in user won't. These differences are shown in the Level 5 requirements.
 
+> Make sure you consult the pdf's Login/Logout Page section for details about current passwords, table structure, and how to handle the authentication via the `password_hash` function.
 
 #### Level 0
 
+- [ ] Two or three of `LI.1`, `LI.2`, and `LI.5` are incomplete.
+
 #### Level 1
+
+- [ ] One of `LI.1`, `LI.2`, and `LI.5` are incomplete.
 
 #### Level 2
 
+- [ ] `LI.1`, `LI.2`, and `LI.5` are complete.
+- [ ] Three of the remaining requirements is incomplete.
+
 #### Level 3
+
+- [ ] `LI.1`, `LI.2`, and `LI.5` are complete.
+- [ ] Two of the remaining requirements is incomplete.
 
 #### Level 4
 
+- [ ] `LI.1`, `LI.2`, and `LI.5` are complete, and
+- [ ] One of the remaining requirements is incomplete.
+
 #### Level 5
 
+- [ ] [LI.1] An unsuccessful login attempt should clearly notify the user that there was a problem with their authentication.
 
+- [ ] [LI.2] A successful login attempt should redirect the user to the Home (Logged-In Version) page.
+
+    _For this milestone, this page does not have to be fully functional!_
+
+- [ ] [LI.3] A logged-in user should see the Home (Logged-In Version) when they go to the Home page (via navigation or directly via the URL). Conversely, a logged-out user should NOT see the Home (Logged-In Version).
+    
+- [ ] [LI.4] A logged-in user should see a Favourites link in the navigation that takes them to the Favourites page. Conversely, a logged-out user should NOT see this link.
+
+    _For this milestone, this page does not have to be fully functional!_
+
+- [ ] [LI.5] A logged-in user should see a Logout link in the navigation that logs them out and redirects them to the Home (Logged-Out Version) page. Conversely, a logged-out user should NOT see this link (and should see a Login on instead).
+
+- [ ] [LI.6] A logged-in user should NOT see a Registration link in the navigation. Conversely, a logged-out user SHOULD see this link.
+
+- [ ] [LI.7] A logged-in user should see a way to favourite a movie when they visit a movie details page. Conversely, a logged-out user should NOT see a way to favourite a movie.
+
+    _If your movie details page is still not fully integrated with the database, I'll still consider this requirement done if there's at least **some** details page I can go to and see the requirement behaviour._
 
 ---
 
