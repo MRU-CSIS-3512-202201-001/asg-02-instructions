@@ -31,7 +31,7 @@ Since you need to get Login working, you'll want some users to test with. There 
 ### Category Weightings
 
 | Category      | Weight |
-|---------------|:------:|
+| ------------- | :----: |
 | API Creation  |  20%   |
 | Title Search  |  30%   |
 | Login         |  35%   |
@@ -42,7 +42,7 @@ Since you need to get Login working, you'll want some users to test with. There 
 Each of the categories will use the same Ladder.
 
 | Completed Req's Sections | Corresponding % |
-|:------------------------:|:---------------:|
+| :----------------------: | :-------------: |
 |         Level 0          |       0%        |
 |         Level 1          |       52%       |
 |         Level 2          |       65%       |
@@ -89,7 +89,7 @@ Each of the categories will use the same Ladder.
 
 #### Level 5
 
-- [ ] [API.1] A user can go to `[your site URL]/api/movies?title=[title search string]` and get back a JSON array of all movies matching `[title search string]`, following all additional requirements mentioned below.
+- [ ] [API.1] A user can go to `[your site URL]/api/movies.php?title=[title search string]` and get back a JSON array of all movies matching `[title search string]`, following all additional requirements mentioned below.
 
 - [ ] [API.2] The endpoint must be exactly as described. This includes the use of all lowercase letters.
 
