@@ -4,26 +4,26 @@
 
 **Worth 3% of your final grade**
 
-**Content in this milestone document takes precedence over anything you read in the [assignment pdf](comp-3512-asg-1-winter-2020-current.pdf).**
+**Content in this milestone document takes precedence over anything you read in the [assignment pdf](comp-3512-a2-v1.pdf).**
 
 ## Easing Off A Bit This Week
 
 This milestone is due right after your quizzes. I'd like you to focus on those a bit more than this milestone. Plus, you likely have some things that need doing in other courses.
 
-So this milestone _should_ be fairly easy to complete and get a good mark. There is still a goodly amount of work to come - and only one week to complete it after this milestone - so if you're worried about that, just take a look at milestone 5. 
+So this milestone _should_ be fairly easy to complete and get a good mark. There is still a goodly amount of work to come - and only one week to complete it after this milestone - so if you're worried about that, just take a look at milestone 5. (Which I'm shooting to have ready around March 24th/25th.)
 
 ## Overview
 
-This fourth milestone will have you focusing on 4 main tasks:
+This fourth milestone will have you focusing on 4 tasks:
 
-1. Implementing an API to provide data to the Title Search.
+1. Implementing an API to provide data for title searching.
 2. Implementing the Title Search (from Home) functionality.
 3. Implementing the Login functionality.
 4. Continuing work on your visual design.
 
 ## User Table Import
 
-Since you need to get Login working, you'll need some users to test things out with. There is a [users.sql](data/users.sql) script you can use to create the necessary users table with a handful of users prepopulated in it. You can use the script just like you did for the `populate-movies.sql` script in the last milestone.
+Since you need to get Login working, you'll want some users to test with. There is a [users.sql](data/users.sql) script you can use to create the necessary users table with a handful of users prepopulated in it. You can use the script just like you did for the `populate-movies.sql` script in the last milestone.
 
 
 ## Your Mark
@@ -31,7 +31,7 @@ Since you need to get Login working, you'll need some users to test things out w
 ### Category Weightings
 
 | Category      | Weight |
-| ------------- | :----: |
+|---------------|:------:|
 | API Creation  |  20%   |
 | Title Search  |  30%   |
 | Login         |  35%   |
@@ -42,7 +42,7 @@ Since you need to get Login working, you'll need some users to test things out w
 Each of the categories will use the same Ladder.
 
 | Completed Req's Sections | Corresponding % |
-| :----------------------: | :-------------: |
+|:------------------------:|:---------------:|
 |         Level 0          |       0%        |
 |         Level 1          |       52%       |
 |         Level 2          |       65%       |
@@ -60,7 +60,7 @@ Each of the categories will use the same Ladder.
 
 - [ ] [MH.2] The name of your Heroku application is `comp-3512-w22-team-xx`, where `xx` is the 2 digits of your team.
 
-- [ ] [MH.3] There is a working link in the team repo's `README.md` that takes you to the Heroku URL for your application; this should cause your `index.php` to be displayed. 
+- [ ] [MH.3] There is a working link in the team repo's `README.md` that takes you to the Heroku URL for your application; this should cause your `index.php` (i.e. Home [Not Logged-In Version] page) to be displayed. 
 
     _I will be marking the site you link to via this README, so make sure it's the one you want assessed!_
 
@@ -89,7 +89,7 @@ Each of the categories will use the same Ladder.
 
 #### Level 5
 
-- [ ] [API.1] A user can go to `[your site URL]/api/movies?title=[title search string]` and get back a JSON array of all movies matching `[title search string]`, following all requirements mentioned below.
+- [ ] [API.1] A user can go to `[your site URL]/api/movies?title=[title search string]` and get back a JSON array of all movies matching `[title search string]`, following all additional requirements mentioned below.
 
 - [ ] [API.2] The endpoint must be exactly as described. This includes the use of all lowercase letters.
 
@@ -97,7 +97,7 @@ Each of the categories will use the same Ladder.
 
 - [ ] [API.4] The api folder must be inside your public folder so that it's accessible to users.
 
-- [ ] [API.5] The query string must be valid (i.e. you must perform query string sanitization on the query string). If the query string is invalid, please return an empty array. (This might not be what you do in "real life", but it's good enough for us here!)
+- [ ] [API.5] You must perform query string sanitization on the incoming query string. If the query string is invalid, your API must  return an empty array. (This might not be what you do in "real life", but it's good enough for us here!)
 
 ---
 
@@ -128,7 +128,7 @@ Each of the categories will use the same Ladder.
 
 - [ ] [TS.4] If a user searches for a title that matches (fully or partially, case-insensitive) the title of a movie that is in the database, then they should arrive on `browse-movies.php` with the matching movies visible and in alphabetic title order.
 
-- [ ] [TS.5] Behind the scenes, the same process as required in assignment one should be taking place: the clicking of the search button should initiate a fetch from an API endpoint (your own!) and results should be stored in some form in session storage (i.e. they are now cached so that further API calls aren't necessary unless a new search is initiated).
+- [ ] [TS.5] Behind the scenes, the same process as required in assignment one should be taking place: the clicking of the search button should initiate a fetch from an API endpoint (your own!) and results should be stored in some form in session storage (i.e. they are cached so that further API calls aren't necessary unless a new search is initiated).
 
 ---
 
@@ -181,7 +181,7 @@ Each of the categories will use the same Ladder.
 
 - [ ] [LI.7] A logged-in user should see a way to favourite a movie when they visit a movie details page. Conversely, a logged-out user should NOT see a way to favourite a movie.
 
-    _If your movie details page is still not fully integrated with the database, I'll still consider this requirement done if there's at least **some** details page I can go to and see the requirement behaviour._
+    _If your movie details page is not yet fully integrated with the database, I'll still consider this requirement done if there's at least **some** details page I can go to and see the requirement behaviour._
 
 ---
 
