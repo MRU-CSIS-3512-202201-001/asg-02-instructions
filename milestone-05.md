@@ -1,9 +1,9 @@
 # Assignment 02 - Milestone 05
 
-**Due: Officially @ 11:59 PM on April 7th**  
-_(Unofficially whenever JP Gets Up & Starts Marking On April 8th)_
+**Due: Officially @ 11:59 PM on Friday, April 8th**  
+_(Unofficially, whenever JP Gets Up & Starts Marking On April 9th)_
 
-_I'm going to take Friday (Apr 8) off and just mark my brain off from whenever I get up. Historical data indicate that will be somewhere between 2 and 3 AM. Assuming it takes at most 2h to mark each one, that'll mean sometime late afternoon that day you'll have your mark and know your grades going into the final exam._
+_I'll be marking Saturday and Sunday with the intent to have your pre-final exam course mark back to you by late Sunday afternoon._
 
 **Worth 7% of your final grade**
 
@@ -63,7 +63,8 @@ _For example, if you get an Acceptable in your coding craftsmanship and an Unacc
 
 ## Must-Haves
 
-> If the following aren't met, I won't mark your submission. THERE ARE TWO NEW THINGS IN HERE - MH.6 and MH.7 - SO DON'T OVERLOOK THEM.
+> If the following aren't met, I won't mark your submission.   
+> **THERE ARE TWO NEW THINGS IN HERE - MH.6 and MH.7 - SO DON'T OVERLOOK THEM.**
 
 - [ ] [MH.1] The Feedback pull request in the repo has not been closed or merged.
 
@@ -73,7 +74,7 @@ _For example, if you get an Acceptable in your coding craftsmanship and an Unacc
 
 - [ ] [MH.4] The "plumbing" that was used in milestone 1 is present here: a valid Procfile, composer.json, and public folder containing your site's viewable files are present.
 
-- [ ] [MH.5] No alerts are present in the site.
+- [ ] [MH.5] No alerts are present in the site code.
 
 - [ ] [MH.6] All database queries must be done using a PDO object. No code involving mysqli can be used. 
 
@@ -83,7 +84,7 @@ _For example, if you get an Acceptable in your coding craftsmanship and an Unacc
 
 ## The Pages
 
-I'm going to be focusing solely on functionality of each page here, as the visual design will be assessed separately.
+I'm going to be focusing solely on the functionality of each page here, as the visual design will be assessed separately.
 
 Notice I'll be re-checking older pages, as changes you've made since I last checked may have borked your earlier work.
 
@@ -227,9 +228,9 @@ Make sure you look through all the checkboxes. There have been some changes and 
 
 - [ ] [LI.7] A logged-in user should see a way to favourite a movie when they visit a movie details page. Conversely, a logged-out user should NOT see a way to favourite a movie.
 
-- [ ] [LI.8] A logged-in user should see a way to favourite movies displayed in the Browse page. Coversely, a logged-out user should NOT see such a thing.
+- [ ] [LI.8] A logged-in user should see a way to favourite movies displayed in the Browse page. Conversely, a logged-out user should NOT see such a thing.
 
-- [ ] [LI.9] The tracking of whether a user is logged in our out must be done through the use of PHP's session state.
+- [ ] [LI.9] The tracking of whether a user is logged in or out must be done through the use of PHP's session state.
 
 ---
 
@@ -249,7 +250,7 @@ Make sure you look through all the checkboxes. There have been some changes and 
 
 - [ ] [REG.6] Passwords are saved using a bcrypt hash with a cost value of 12.
 
-- [ ] [REG.7] For top marks on this page, the user can turn off JS in their browser and still have all necessary validations occur on the backend. Naturally, you wont' be able to do the inline-style type validation in this case, but that's ok. You will need to make sure that the user's entered data is still present in the form, as you don't want them to have to re-enter data.
+- [ ] [REG.7] For top marks on this page, the user can turn off JS in their browser and still have all necessary validations occur on the backend. Naturally, you won't be able to do the inline-style type validation in this case, but that's ok. You will need to make sure that the user's entered data is still present in the form, as you don't want them to have to re-enter data.
 
 ---
 
