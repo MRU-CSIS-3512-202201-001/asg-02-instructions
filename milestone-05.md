@@ -1,4 +1,4 @@
-# Assignment 02 - Milestone 05 (WIP)
+# Assignment 02 - Milestone 05
 
 **Due: Officially @ 11:59 PM on April 7th**  
 _(Unofficially whenever JP Gets Up & Starts Marking On April 8th)_
@@ -63,7 +63,7 @@ _For example, if you get an Acceptable in your coding craftsmanship and an Unacc
 
 ## Must-Haves
 
-> If the following aren't met, I won't mark your submission.
+> If the following aren't met, I won't mark your submission. THERE ARE TWO NEW THINGS IN HERE - MH.6 and MH.7 - SO DON'T OVERLOOK THEM.
 
 - [ ] [MH.1] The Feedback pull request in the repo has not been closed or merged.
 
@@ -74,6 +74,10 @@ _For example, if you get an Acceptable in your coding craftsmanship and an Unacc
 - [ ] [MH.4] The "plumbing" that was used in milestone 1 is present here: a valid Procfile, composer.json, and public folder containing your site's viewable files are present.
 
 - [ ] [MH.5] No alerts are present in the site.
+
+- [ ] [MH.6] All database queries must be done using a PDO object. No code involving mysqli can be used. 
+
+- [ ] [MH.7] Any database queries involving user input MUST used a prepared statement using EITHER named parameters OR the `?` syntax. If you have any queries using raw $_GET or $_POST inputs, it's insanely insecure.
 
 ---
 
