@@ -2,6 +2,12 @@
 
 More recent questions will be near the top.
 
+#### Q. What's the password for the user accounts that are prepopulated in the users table?
+
+> _A. They're all **mypassword**. (Take a look at the PDF in the Login/Logout Page section.)_
+
+> _A. Remember that local storage and session storage have limits to how much they can hold. (Something like 5MB?) If you're trying to cram a bunch of movie info in there, your browser's gonna go all Michael Bay on you. In real life, we'd use another way of caching our results. Stupid real life...._ 
+
 #### Q. When I do a title search that has lots of hits (like searching for 'a'), I get a weird JS error in the console. Whyz?
 
 > _A. Remember that local storage and session storage have limits to how much they can hold. (Something like 5MB?) If you're trying to cram a bunch of movie info in there, your browser's gonna go all Michael Bay on you. In real life, we'd use another way of caching our results. Stupid real life...._ 
