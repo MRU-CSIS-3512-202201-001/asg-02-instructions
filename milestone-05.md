@@ -35,7 +35,7 @@ I'll also toss in some marks for an overall impression of the visual design of t
 ### The Pages
 
 | Page                 | Weight (%) |
-| -------------------- | :--------: |
+|----------------------|:----------:|
 | Home (not logged-in) |     5      |
 | Home (logged-in)     |     30     |
 | About                |     5      |
@@ -50,7 +50,7 @@ I'll also toss in some marks for an overall impression of the visual design of t
 I'll give the site's overall visual design and code craftsmanship each an "unacceptable" (U), "acceptable" (A), or "exceeds expectations" (E). I'll bump/drop folks up/down a letter-grade band based on the results like so:
 
 | Results | Bump/Drop |
-| :-----: | :-------: |
+|:-------:|:---------:|
 |  U + U  |  Drop 2   |
 |  U + A  |  Drop 1   |
 |  U + E  | no change |
@@ -113,6 +113,8 @@ Make sure you look through all the checkboxes. There have been some changes and 
 ### Home (Logged-In) (30%)
 
 #### Expectations
+
+- [ ] [HNLI.0] The page must be named `index.php`. (yes, it's the same as the non logged-in version)
 
 - [ ] [HLI.1] The logged-in user's first name, last name, city, and country are nicely displayed.
 
