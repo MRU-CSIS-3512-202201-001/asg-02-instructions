@@ -144,7 +144,7 @@ Make sure you look through all the checkboxes. There have been some changes and 
 
 - [ ] [AB.2] This page displays the current date and time in Alberta. PHP must be used to accomplish this.
 
-- [ ] [AB.3] This page displays how many days, hours, and minutes are left until milestone 5 is due (April 7 @ 11:59 PM). PHP must be used to accomplish this.
+- [ ] [AB.3] This page displays how many days, hours, and minutes are left until milestone 5 is due (April 8 @ 11:59 PM). PHP must be used to accomplish this.
 
 ---
 
